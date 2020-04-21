@@ -1,7 +1,7 @@
 # 추상 팩토리 패턴
 
 - 생성 패턴 
-- 예제 : 치킨 배달 예제
+- 예제 : 치킨 배달
 
 ## 참여자
 - AbstractFactory : ChickenStore

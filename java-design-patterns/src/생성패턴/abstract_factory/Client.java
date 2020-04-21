@@ -14,8 +14,12 @@ public class Client {
     }
 
     public static void eat(Eatable eatable) {
-        System.out.println(eatable.toString()+" 을(를) 먹습니다");
-        System.out.println("(소리) "+eatable.eatingSound());
+        if(eatable.isEatable()) {
+            System.out.println(eatable.toString()+" 을(를) 먹습니다");
+            System.out.println("(소리) "+eatable.eatingSound());
+        } else {
+            System.out.println(eatable.toString()+" 은(는) 현재 먹을 수 없는 상태입니다");
+        }
         System.out.println("-----------------------");
     }
 }
