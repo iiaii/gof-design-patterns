@@ -1,5 +1,6 @@
 # #GoF디자인패턴/구조패턴/퍼사드
 [09 퍼사드 패턴 (Facade Pattern)](https://lktprogrammer.tistory.com/42)
+[퍼사드 패턴(Façade Pattern) :: 삐멜 소프트웨어 엔지니어](https://imasoftwareengineer.tistory.com/29)
 
 ## 퍼사드 (Facade - 정면, 실제와는 다른 표면)
 
