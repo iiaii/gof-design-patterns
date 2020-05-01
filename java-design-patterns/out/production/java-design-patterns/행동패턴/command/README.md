@@ -10,4 +10,4 @@
 - Invoker : OkGoogle
 - Receiver : Heater, Light
 - Client : Client
-- (Device / DeviceStatus)
+- (상태(State) 패턴 :  State, On, Off)
