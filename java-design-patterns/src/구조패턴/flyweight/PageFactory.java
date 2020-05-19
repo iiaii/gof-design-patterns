@@ -7,10 +7,10 @@ public enum PageFactory {
     FACTORY;
 
     private HashMap<String, Page> pages = new HashMap<>();
-    private Random random = new Random(10);
+    private Random random = new Random();
 
     public Page getRandomPage() {
-        return new RandomPage(random.nextInt());
+        return new RandomPage(random.nextInt(20));
     }
 
     public Page getCustomPage(String id) {

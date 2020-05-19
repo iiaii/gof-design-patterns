@@ -1,6 +1,6 @@
 package 구조패턴.bridge;
 
-public abstract class Animal {
+public class Animal {
     private Huntable huntable;
 
     public Animal(Huntable huntable) {
